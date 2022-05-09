@@ -10,8 +10,8 @@
 
 <body>
 
-        <h1>Поиск автомобиля</h1>
-        
+    <h1>Поиск автомобиля</h1>
+
     <div>
         <a href="../index.html">Главная страница</a>
     </div>
@@ -27,9 +27,7 @@
     <form action="https://tests.fomenko.top/echo/index.php" method="get">
 
         <fieldset>
-
             <legend>Марка автомобиля</legend>
-        
             <div>
                 <label for="list1">Выберите марку автомобиля</label>
                 <select id="list1" name="brand">
@@ -47,15 +45,12 @@
                     <option>Scoda</option>
                     <option>Fiat</option>
                     <option>Mazda</option>
-                    </select>
-                </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
-
             <legend>Тип кузова</legend>
-
             <div>
                 <label for="list2">Выберите тип кузова</label>
                 <select id="list2" name="autobody">
@@ -69,12 +64,8 @@
                     <option>Универсал</option>
                     <option>Внедорожник</option>
                     <option>Кабриолет</option>
-            
-
-            </select>
-
-        </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
@@ -90,18 +81,12 @@
                     <option>США</option>
                     <option>Япония</option>
                     <option>Чехия</option>
-           
-
-            </select>
-
-        </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
-
             <legend>Тип топлива</legend>
-
             <div>
                 <label for="list3">Выберите тип топлива</label>
                 <select id="list3" name="fuel">
@@ -111,17 +96,12 @@
                     <option>Газ</option>
                     <option>Электро</option>
                     <option>Гибрид</option>
-          
-            </select>
-
-        </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
-            
             <legend>Тип коробки передач</legend>
-
             <div>
                 <label for="list9">Выберите тип коробки передач</label>
                 <select id="list9" name="transmission">
@@ -130,17 +110,13 @@
                     <option>Механика</option>
                     <option>Вариатор</option>
                     <option>Робот</option>
-        
-            </select>
-
-        </div>
+                </select>
+            </div>
 
         </fieldset>
 
         <fieldset>
-
             <legend>Цвет кузова</legend>
-
             <div>
                 <label for="list5">Выберите цвет кузова</label>
                 <select id="list5" name="color">
@@ -155,17 +131,12 @@
                     <option>Серый</option>
                     <option>Бежевый</option>
                     <option>Коричневый</option>
-
-            </select>
-
-        </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
-
             <legend>Год выпуска</legend>
-
             <div>
                 <label for="list6">Год выпуска, от</label>
                 <select id="list6" name="releasefrom">
@@ -194,10 +165,8 @@
                     <option>2020</option>
                     <option>2021</option>
                     <option>2022</option>
-            
-            </select>
-
-        </div>
+                </select>
+            </div>
 
             <div>
                 <label for="list7">Год выпуска, до</label>
@@ -227,89 +196,68 @@
                     <option>2020</option>
                     <option>2021</option>
                     <option>2022</option>
-
-            </select>
-
-        </div>
-
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
-
             <legend>Состояние автомобиля</legend>
-
             <div>
                 <label for="new">Новая</label>
                 <input id="new" type="checkbox" name="new">
             </div>
-
             <div>
                 <label for="accident">Битая</label>
                 <input id="accident" type="checkbox" name="accident">
             </div>
-
             <div>
                 <label for="notcleared">Не растаможена</label>
                 <input id="notcleared" type="checkbox" name="notcleared">
             </div>
-
             <div>
                 <label for="loan">В кредите</label>
                 <input id="loan" type="checkbox" name="loan">
             </div>
-
             <div>
                 <label for="usa">Пригнана из США</label>
                 <input id="usa" type="checkbox" name="usa">
             </div>
-
         </fieldset>
 
         <fieldset>
-
             <legend>Комфорт</legend>
-
             <div>
                 <label for="leither">Кожаный салон</label>
                 <input id="leither" type="checkbox" name="leither">
             </div>
-
             <div>
                 <label for="sunroof">Люк</label>
                 <input id="sunroof" type="checkbox" name="sunroof">
             </div>
-
             <div>
                 <label for="seatheating">Подогрев кресел</label>
                 <input id="seatheating" type="checkbox" name="seatheating">
             </div>
-
             <div>
                 <label for="cruisecontrol">Круиз-контроль</label>
                 <input id="cruisecontrol" type="checkbox" name="cruisecontrol">
             </div>
-
             <div>
                 <label for="parktronic">Парктроник</label>
                 <input id="parktronic" type="checkbox" name="parktronic">
             </div>
-
             <div>
                 <label for="boost">Усилитель руля</label>
                 <input id="boost" type="checkbox" name="boost">
             </div>
-
             <div>
                 <label for="computer">Бортовой компьютер</label>
                 <input id="computer" type="checkbox" name="computer">
             </div>
-
         </fieldset>
 
         <fieldset>
-
             <legend>Цена, долл. США</legend>
-
             <div>
                 <label for="pricefrom"></label>
                 <input type="number" id="pricefrom" placeholder="from" name="pricefrom" value="0" min="0" max="100000">
@@ -318,18 +266,14 @@
                 <label for="priceto"></label>
                 <input type="number" id="priceto" placeholder="to" name="priceto" value="100000" min="0" max="100000">
             </div>
-            
         </fieldset>
 
         <fieldset>
-
             <legend>Применить фильтры</legend>
-
             <div>
                 <button type="submit">Поиск</button>
                 <button type="reset">Сбросить форму</button>
             </div>
-
         </fieldset>
 
     </form>
